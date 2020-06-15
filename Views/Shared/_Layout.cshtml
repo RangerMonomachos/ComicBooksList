@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link href="~/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <div class="text-center">
+            <img src="~/pictures/avengers-infinity-war.jpg" class="img-fluid"  style="width:500px;height:300px;"/>
+        </div>
+        <div class="text-center">
+            <p class="font-weight-bold">"A hero is one that stands for the people in need. one that puts their own wants and needs behind them to take a stand for what They see as right. Their deads are remembered and inspier others to do ever greater thing."</p>
+        </div>
+        <div class="text-right">
+            <p class="font-italic">-Ranger Monomachos</p>
+        </div>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <script src="~/lib/jquery/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+﻿@model MVC_ComicBooksCharacters.Models.ComicBookContext
+@*
+
+*@
+@{
+}
+<div>
+       @foreach(MVC_ComicBooksCharacters.Models.ComicBook C in Model.ComicBooks)
+       {
+            <div>
+                @C.ComicBookTitle
+            </div>
+       }
+</div>
